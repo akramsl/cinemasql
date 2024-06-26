@@ -272,7 +272,7 @@ INSERT INTO Prices (type, payement, place_id) VALUES
 
 -- Insertion des utilisateur de role USER avec un mot de passe hashé de 256 caractères
 INSERT INTO Users (firstName, lastName, email, password, role, cinema_id) VALUES
-    ('Gaston', 'Bigman', 'gaston.big@gmail.com', SHA2('gaston', 256), 'User', 1),
-    ('Jason', 'Bigman', 'jason.big@gmail.com', SHA2('jason', 256), 'User', 2),
+    ('Gaston', 'Bigman', 'gaston.bigman@gmail.com', SHA2('gaston', 256), 'User', 1),
+    ('Jason', 'Bigman', 'jason.bigman@gmail.com', SHA2('jason', 256), 'User', 2),
     ('Admin', 'Smith', 'admin.smith@gmail.com', SHA2('admin', 256), 'Admin', NULL);
     
